@@ -1,6 +1,7 @@
 #include "Practical.h"
 
-/* Read 2-byte length and place in big-endian order.  Then read the indicated number of bytes.
+/* Read 2-byte length and place in big-endian order.
+ * Then read the indicated number of bytes.
  * If the input buffer is too small for the data, truncate to fit and
  * return the negation of the *indicated* length. Thus a negative return
  * other than -1 indicates that the message was truncated.

@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
                     fputs("Error framing/outputting message\n",stderr);
                     break;
                 }else{
-                    printf("Processed %s for candidate %d; current count is %llu.\n",
+                    printf("Processed %s for candidate %d; current count is %lu.\n",
                             (v.isInquiry ? "inquiry" : "vote"), v.candidate,v.count);
                 }
                 fflush(channel);
